@@ -1,4 +1,4 @@
-const API_URL = 'https://api.thecatapi.com/v1/images/search?limit=3';
+const API_URL = 'https://api.thecatapi.com/v1/images/search?limit=3&api_key=709ed5e9-7773-49d0-90ba-dcaeafffae39';
 
 async function reload() {
   const res = await fetch(API_URL);
