@@ -35,8 +35,8 @@ async function loadRandomMichis() {
 
     //The next code don't was util I don't know why...
 
-    btn_favourite.addEventListener("click",() => saveFavouriteMichis(data[0].id));
-    btn_favourite2.addEventListener("click",() => saveFavouriteMichis(data[0].id));
+    // btn_favourite.addEventListener("click",() => saveFavouriteMichis(data[0].id));
+    // btn_favourite2.addEventListener("click",() => saveFavouriteMichis(data[1].id));
 
     // btn_favourite.addEventListener("click", (event)=> {
     //   saveFavouriteMichis(data[0].id)
