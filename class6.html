@@ -41,16 +41,27 @@
 
     <article>
       <img id="img1" width="150" alt="Foto gatito aleatorio">
-      <button class="btn-favourite">Guardar michi en favoritos</button>
+      <button id="btn-favourite">Guardar michi en favoritos</button>
     </article>
 
     <article>
       <img id="img2" width="150" alt="Foto gatito aleatorio">
-      <button class="btn-favourite2">Guardar michi en favoritos</button>
+      <button id="btn-favourite2">Guardar michi en favoritos</button>
     </article>
     
 
     <button id="btn-random">Recargar</button>
+  </section>
+  
+
+  <section id="uploadingMichi">
+    
+    <h2>Sube la foto de tu Michi en favoritos</h2>
+    <form id="uploadingForm">
+      <input type="file" id="file" name="file">
+      <button type="button" id="btn-uploading">Subir Foto</button>
+    </form>
+
   </section>
   
   <section id="favoritesMichis">
@@ -62,6 +73,7 @@
     </article>
   </section>
 
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="./class6.js"></script>
 </body>
 </html>
